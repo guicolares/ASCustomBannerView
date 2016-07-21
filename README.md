@@ -47,7 +47,7 @@ for i in 0 ... imageName.count-1
 ```
 Get screen size width:
 ```swift
-let widthScreen = CGFloat()
+var widthScreen = CGFloat()
 widthScreen = UIScreen.mainScreen().bounds.width
 ```
 Instantiate class BannerView:
